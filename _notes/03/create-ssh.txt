@@ -1,0 +1,6 @@
+>> ~/.ssh
+>> ssh-keygen -t rsa
+>> cat ".... .pub"  (then copy it)
+github->settings->ssh
+add new ssh
+copy paste
