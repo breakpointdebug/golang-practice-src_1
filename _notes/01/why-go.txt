@@ -1,0 +1,7 @@
+1. made by best computer science experts hired by google
+2. solves problems that google has
+3. fastest growing, top paying programming language
+4. utilize multiple cores (concurrency and parallel computing)
+5. webservices at scale (youtube is rewritten in go)
+6. crypto, automation, image processing
+7. portable, opensource, backed by google

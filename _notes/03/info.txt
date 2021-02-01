@@ -1,0 +1,37 @@
+important:
+- operate at the edge of not knowing
+- learn which battles to fight or let go
+
+
+go workspace:
+
+folder (need to exist)
+  /bin (binaries)
+  /pkg (archived files, already compiled files)
+  /src (source code)
+    /github.com
+      /username
+        /folder with code for project or repo
+
+change environment variable
+
+- GOPATH pointing to your workspace (restart vscode after the change)
+         this is where you will write your source code
+         (E:\golang-workspace)
+
+- GOBIN  output folder when you use >>go install
+         (E:\golang-workspace\bin)
+
+to check system variables:
+>>go env
+
+
+retrieve package from git:
+>>go get -d github.com/<user>/<package>
+-> create your repository then use this command
+
+format our source code (so that it is consistent across teams)
+>>go fmt "...go"
+
+generate native executable:
+>> go build
