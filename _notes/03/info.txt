@@ -23,15 +23,15 @@ change environment variable
          (E:\golang-workspace\bin)
 
 to check system variables:
->>go env
+>> go env
 
 
-retrieve package from git:
->>go get -d github.com/<user>/<package>
+retrieve package from github:
+>> go get -d github.com/<user>/<package>
 -> create your repository then use this command
 
 format our source code (so that it is consistent across teams)
->>go fmt "...go"
+>> go fmt "...go"
 
 generate native executable:
 >> go build
