@@ -1,0 +1,6 @@
+dependecies are a priority because it may give problems
+in the future if not taken care of carefully.
+
+>> go mod init (creates new module)
+>> go list -m (prints all module's dependecies)
+>> go mod tidy (removes unused references)
