@@ -1,0 +1,24 @@
+idiomatic way of writing go
+
+compiler will just put the required code before compilation
+
+there are certain patterns acceptable to be written
+
+
+func main() as entry point
+
+control flow:
+1. sequence
+2. loop; iterative
+3. conditional
+
+
+package = group similar code together
+
+avoid unused variables (compiler will complain about code pollution)
+
+... = variadic parameter = unlimited number of values of any type (interface{})
+
+every value is of type empty interface (interface{})
+
+throw away returns use: '_', if you don't want to use a return value and not assign it to any variable
