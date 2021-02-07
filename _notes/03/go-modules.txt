@@ -3,4 +3,6 @@ in the future if not taken care of carefully.
 
 >> go mod init (creates new module)
 >> go list -m (prints all module's dependecies)
+>> go get <library to get>
 >> go mod tidy (removes unused references)
+>> go test (to test all existing go files with testing code)
