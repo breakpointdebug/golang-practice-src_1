@@ -4,7 +4,7 @@
 
 =    only used after a variable has been declared but want to assign a new value
 
-var  allow to declare variables outside function, global scope (can be used by other functions)
+var  allow to declare variables outside function, package scope (can be used by other functions as long as it is within the package)
 
 
 // globally declare there is a variable with identifier "z"
@@ -13,3 +13,12 @@ var  allow to declare variables outside function, global scope (can be used by o
 // boolean = false, string = "", int = 0
 
 var z int
+
+notes:
+- it can only hold values of that declared type (golang is static)
+- by declaring with a value it will automatically infer the type
+- strings can use `` (backticks) and have "" (double quotes) used it inside
+- primitive data types = the built in types
+- composite data types = combination of primitive types (grouping)
+
+fmt.Printf/fmt.Println ("%T", <variable>) = to check for type
