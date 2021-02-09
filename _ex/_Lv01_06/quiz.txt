@@ -1,0 +1,39 @@
+statement
+expression
+()
+{}
+[]
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+idiomatic vs specific
+true
+true
+true
+false (:= can only be used at block level)
+short, concise, evocative
+golang playground
+true
+true
+true
+true
+idomatic = how the community says how to write it
+_ = (throw away return)
+true
+true (variadic can take as many values of same type; ...interface{})
+true
+true
+true
+true
+true
+true
+true
+true
