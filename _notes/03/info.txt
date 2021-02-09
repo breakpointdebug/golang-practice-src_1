@@ -17,10 +17,10 @@ change environment variable
 
 - GOPATH pointing to your workspace (restart vscode after the change)
          this is where you will write your source code
-         (E:\golang-workspace)
+         (F:\_GO)
 
 - GOBIN  output folder when you use >>go install
-         (E:\golang-workspace\bin)
+         (F:\_GO\bin)
 
 to check system variables:
 >> go env

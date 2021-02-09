@@ -5,6 +5,21 @@
 		},
 		{
 			"path": "happydog"
+		},
+		{
+			"path": "custom-type"
+		},
+		{
+			"path": "fmt"
+		},
+		{
+			"path": "hello-world"
+		},
+		{
+			"path": "short-declaration"
+		},
+		{
+			"path": "type-conversion"
 		}
 	],
 	"settings": {}
