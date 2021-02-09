@@ -1,0 +1,24 @@
+:=   short declaration operator, declare variable and assign value
+     (first time you use a variable, declare it)
+     only works inside a function
+
+=    only used after a variable has been declared but want to assign a new value
+
+var  allow to declare variables outside function, package scope (can be used by other functions as long as it is within the package)
+
+
+// globally declare there is a variable with identifier "z"
+// and has a type of "int" and assigns value as 0 by default
+// "zero value" is the default value if no assigned value by default
+// boolean = false, string = "", int = 0
+
+var z int
+
+notes:
+- it can only hold values of that declared type (golang is static)
+- by declaring with a value it will automatically infer the type
+- strings can use `` (backticks) and have "" (double quotes) used it inside
+- primitive data types = the built in types
+- composite data types = combination of primitive types (grouping)
+
+fmt.Printf/fmt.Println ("%T", <variable>) = to check for type

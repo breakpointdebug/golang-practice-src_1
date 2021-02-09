@@ -1,0 +1,1 @@
+fmt package is like C's scanf and printf
