@@ -1,0 +1,2 @@
+vs code seems to have a problem with linter if you open a project with multiple folders,
+need to just open main folder and add it to workspace
