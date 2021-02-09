@@ -1,4 +1,4 @@
-module github.com/breakpointdebug/golang-practice-src_1/happydog
+module hello
 
 go 1.15
 
