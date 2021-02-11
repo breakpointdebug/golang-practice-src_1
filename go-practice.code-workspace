@@ -38,6 +38,9 @@
 		},
 		{
 			"path": "_ex\\_Lv01_06"
+		},
+		{
+			"path": "types"
 		}
 	],
 	"settings": {}
