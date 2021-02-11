@@ -1,0 +1,25 @@
+true
+1 and 0's, memory
+binary (on/off discrete states)
+true
+32 (2^5)
+true
+true (binary digit = bit)
+true
+true
+utf-8 (popular encoding)
+1kb
+1tb
+7b
+16k
+int32 = rune as alias (code point in utf-8)
+uint8 = byte as alias (unsigned int 8)
+true
+true (int for whole number float64)
+true
+true
+true
+...
+42
+101010
+2A

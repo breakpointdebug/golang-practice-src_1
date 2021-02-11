@@ -108,7 +108,7 @@ func fnBitShifting() {
 	X := 4
 	fmt.Printf("decimal: %d\t\tbinary: %b\n", X, X)
 
-	Y := X << 1 // shift bit value of X
+	Y := X << 1 // shift bit value of X once
 	fmt.Printf("decimal: %d\t\tbinary: %b", Y, Y)
 }
 
