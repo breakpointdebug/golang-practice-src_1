@@ -1,0 +1,13 @@
+iota = special predeclared identifier
+
+predifined as int, if used in a constant will auto increment from 0
+
+const (
+	AI = iota
+	BI
+	CI
+)
+
+0
+1
+2

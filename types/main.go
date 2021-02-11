@@ -41,7 +41,7 @@ func fnString() {
 		fmt.Printf("%#U", s[i])
 	}
 
-	fmt.Println("\n")
+	fmt.Println("")
 
 	for index, value := range s {
 		fmt.Printf("at index position %d we have hex %#x\n", index, value) // display in hex value
@@ -61,6 +61,72 @@ func fnNumeralSystems() {
 	fmt.Printf("Binary: %b\n", n)
 	fmt.Printf("lower case hex: %x\n", n)
 	fmt.Printf("hex in proper format: %#x\n", n)
+}
+
+// constant (typed vs untyped constants)
+const (
+	A         = 42
+	B float64 = 42.42
+	C string  = "James Bond"
+)
+
+// D ...
+const D = 69
+
+// E ...
+const E = 420
+
+const (
+	// AI ...
+	AI = iota
+	// BI ...
+	BI
+	// CI ...
+	CI
+)
+
+const (
+	// DI ...
+	DI = iota
+	// EI ...
+	EI
+	// FI ...
+	FI
+)
+
+func fnIota() {
+	fmt.Println(AI)
+	fmt.Println(BI)
+	fmt.Println(CI)
+	fmt.Println(DI)
+	fmt.Println(EI)
+	fmt.Println(FI)
+
+}
+
+func fnBitShifting() {
+	X := 4
+	fmt.Printf("decimal: %d\t\tbinary: %b\n", X, X)
+
+	Y := X << 1 // shift bit value of X
+	fmt.Printf("decimal: %d\t\tbinary: %b", Y, Y)
+}
+
+const (
+	_  = iota // do not use the 1st iota
+	kb = 1 << (iota * 10)
+	mb = 1 << (iota * 10)
+	gb = 1 << (iota * 10)
+)
+
+func fnSizeUsingIotaAndBitShifting() {
+	// kb := 1024
+	// mb := 1024 * kb
+	// gb := 1024 * mb
+
+	fmt.Printf("%d\t\t\t%b\n", kb, kb)
+	fmt.Printf("%d\t\t\t%b\n", mb, mb)
+	fmt.Printf("%d\t\t%b\n", gb, gb)
 
 }
 
@@ -70,4 +136,6 @@ func main() {
 	// fnMisc()
 	// fnString()
 	// fnNumeralSystems()
+	// fnBitshifting()
+	fnSizeUsingIotaAndBitShifting()
 }
