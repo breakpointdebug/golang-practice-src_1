@@ -1,1 +1,3 @@
 manipulation of binary values
+
+bit = binary digit (0,1... off/on)

@@ -1,0 +1,20 @@
+control flow:
+  loop/iterative
+
+    for (condition/for clause/range clause)
+
+    for key,value := range oldmap {
+      // for array
+    }
+
+  sequential
+  conditional
+
+    initialization statement on if statement:
+
+    if x:=2; x== 2 {
+
+    }
+
+
+no "while" and no "do while" in go

@@ -1,0 +1,8 @@
+perhaps it's better to convert values into "cents"
+
+so having $100 should be stored as 10000... then multiplied by 100
+to get back $100
+
+so i have $32.22 should be stored as (32*100 + 22)
+
+using float64 or any floating point results in imprecision problems

@@ -62,6 +62,9 @@
 		},
 		{
 			"path": "_ex\\_Lv02_07"
+		},
+		{
+			"path": "control-flow"
 		}
 	],
 	"settings": {}
