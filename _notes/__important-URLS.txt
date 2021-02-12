@@ -3,3 +3,5 @@ always check this while you write go code:
 https://golang.org/ref/spec
 
 https://golang.org/doc/effective_go.html
+
+https://www.ardanlabs.com/training/
