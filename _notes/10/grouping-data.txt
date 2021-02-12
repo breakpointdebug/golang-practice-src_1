@@ -1,0 +1,2 @@
+aggregate data type: (grouping of same type)
+composite data type: (grouping of different type)
