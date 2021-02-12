@@ -63,8 +63,43 @@ func fnIfElse() {
 	}
 
 	if x := 42; x == yy {
-		fmt.Println("initialization statement")
+		fmt.Println("initialization statement with logical statement")
 	}
+}
+
+func fnLoopConditionalModulo() {
+	for i := 0; i < 100; i++ {
+		if i%2 == 0 {
+			fmt.Println(i)
+		}
+	}
+}
+
+func fnSwitch() {
+	// add "fallthrough" keyword if you want to also print the next case
+	// "default" keyword as the one catches if value on switch does not exist
+	x := 5
+	switch x {
+	case 1, 5: // multiple cases
+		fmt.Printf("case1 value was: %v\n", x)
+	case 2:
+		fmt.Printf("case2 value was: %v\n", x)
+	case 3:
+		fmt.Printf("case3 value was: %v\n", x)
+		fallthrough
+	default:
+		fmt.Println("no value")
+	}
+}
+
+func fnConditionalLogicOperator() {
+	// AND: if anything is false then return as false, else true
+	// OR: if anything is true then return as true, else false
+	fmt.Printf("true && true\t%v\n", true && true)
+	fmt.Printf("true && false\t%v\n", true && false)
+	fmt.Printf("true || true\t%v\n", true || true)
+	fmt.Printf("true || false\t%v\n", true || false)
+	fmt.Printf("!true \t%v\n", !true)
 }
 
 func main() {
@@ -72,5 +107,8 @@ func main() {
 	// fnForNested()
 	// fnForBreakContinue()
 	// fnForASCII()
-	fnIfElse()
+	// fnIfElse()
+	// fnLoopConditionalModulo()
+	// fnSwitch()
+	fnConditionalLogicOperator()
 }

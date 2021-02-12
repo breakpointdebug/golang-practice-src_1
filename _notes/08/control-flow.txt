@@ -8,6 +8,9 @@ control flow:
     }
 
   sequential
+
+    -> by default
+
   conditional
 
     initialization statement on if statement:
